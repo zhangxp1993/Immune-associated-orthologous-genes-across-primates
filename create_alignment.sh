@@ -13,4 +13,3 @@ for i in SingleCopyOrthologGroups/*fasta; do ./scripts/aln_cds2pep.pl $i ; done
 ./scripts/pro2dna.replicates.pl cds_OrthologGroups/ 28
 ./scripts/pro2dna_trim.pl cds_OrthologGroups/ 24
 ./scripts/fastas2trimal.pl cds_aln/ 24
-./scripts/merge_species_sequences.pl species_list
