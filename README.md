@@ -7,7 +7,7 @@ Example usage:
 bash ./bash_create_alignment.sh. 
 Note:
 Before running this script, you must download the data folder from the following Dryad repository:
-https://doi.org/10.5061/dryad.6q573n65z
+https://doi.org/10.5061/dryad.6q573n65z.
 
 ## bash_paml_mfree.sh
 This script is used to calculate dN/dS values along each branch of the phylogeny using the free-ratio model from PAML 4.9.
