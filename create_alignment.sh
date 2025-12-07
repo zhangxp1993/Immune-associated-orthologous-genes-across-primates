@@ -1,6 +1,6 @@
 ./scripts/ortholog_toga.pl data/species_list data/human.longest.transcript.bed > orthogroup.txt
 ./scripts/orthofinder_findwantedOG_byspecies.pl orthogroup.txt
-./scripts/orthofinder_findwantedOG_bylength.pl species_OrthologGroups.txt data/species_list data/human_hg38/toga.isoforms.tsv data/hg38_cds.fasta
+./scripts/orthofinder_findwantedOG_bylength.pl species_OrthologGroups.txt data/species_list data/toga.isoforms.tsv data/hg38_cds.fasta
 for i in SingleCopyOrthologGroups/*fasta; do ./scripts/aln_cds2pep.pl $i ; done
 ./scripts/fastas2aligned_by_mafft_hamstr_version.pl pep_orthologGroup/ 28
 ./scripts/align2maxalign.pl pep_orthologGroup/ 28
