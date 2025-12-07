@@ -15,3 +15,6 @@ Example usage:
 bash ./bash_paml_mfree.sh.
 Note:
 Before running this script, you must first run bash_create_alignment.sh.
+
+## Immunity.R
+R scripts support downstream analyses such as phylogenetic generalized least squares (PGLS), hierarchical clustering. 
