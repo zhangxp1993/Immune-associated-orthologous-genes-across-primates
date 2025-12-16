@@ -21,8 +21,8 @@ R scripts support downstream analyses such as phylogenetic generalized least squ
 
 ## Prerequisites
 Linux  
-PAML 4.9
 Perl 5.16  
+PAML 4.9  
 
 R version 4.2.0  
 nipals 0.8  
