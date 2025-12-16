@@ -20,7 +20,7 @@ Before running this script, you must first run bash_create_alignment.sh.
 R scripts support downstream analyses such as phylogenetic generalized least squares (PGLS), hierarchical clustering. 
 
 ## Prerequisites
-Linux
+Linux\n
 PAML 4.9
 
 R version 4.2.0
